@@ -17,10 +17,10 @@ const initialState: TarefasState = {
     },
     {
       id: 2,
-      descricao: 'Estudar bootdtrap',
+      descricao: 'Estudar bootstrap',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'estudar bootdtrap'
+      titulo: 'estudar bootstrap'
     },
     {
       id: 1,
