@@ -1,8 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import Tarefa from '../../models/Tarefas'
 import * as enums from '../../utils/enums/tarefa'
-import { Descricao } from '../../components/Tarefa/styles'
-import { Stats } from 'fs'
 
 type TarefasState = {
   itens: Tarefa[]
@@ -22,7 +20,7 @@ const initialState: TarefasState = {
       descricao: 'Estudar bootdtrap',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'estudar javascript'
+      titulo: 'estudar bootdtrap'
     },
     {
       id: 1,

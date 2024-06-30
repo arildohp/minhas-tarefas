@@ -1,4 +1,3 @@
-import { flattenDiagnosticMessageText } from 'typescript'
 import BarraLateral from '../../container/BarraLateral'
 import Formulario from '../../container/Formulario'
 
